@@ -29,6 +29,7 @@
 
             oItem.className = "item";
             oImg.src = ele.preview;
+            oImg.height = ele.height*initWidth/ele.width;
             oP.innerText = ele.title; 
 
             oItem.appendChild(oImg);
