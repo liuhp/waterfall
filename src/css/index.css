@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.wrapper{
+    width: 80%;
+    min-width: 930px;
+    margin: 0 auto;
+    border: 1px solid black; 
+    text-align: center;
+}
+.wrapper ul{
+    display: inline-block;
+}
+.wrapper ul .box{
+    float: left;
+}
+.wrapper ul .box .item{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    margin:0 5px 10px ;  
+}
+.wrapper ul li .item img{
+    width: 100%;
+}
+.wrapper ul li .item p{
+    text-align: left;
+}
